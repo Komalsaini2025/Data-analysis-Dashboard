@@ -130,7 +130,7 @@ if uploaded_file:
             pie_col = suitable_cols[0]
 
         # 2️⃣ Generate Pie Chart
-        fig5, ax5 = plt.subplots(figsize=(8, 6))
+        fig5, ax5 = plt.subplots(figsize=(7,5))
         cleaned_df[pie_col].value_counts().head(10).plot(
             kind="pie",
             autopct="%1.1f%%",
